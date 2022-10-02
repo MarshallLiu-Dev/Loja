@@ -1,0 +1,36 @@
+.produtos_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.produtos_card{
+    flex: 1 15%;
+    padding: 1%;
+}
+.produto_imagem img{
+    max-width: 100%;
+}
+.produtos_filtro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sort{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.item_sort{
+    padding: 1%;
+};
+h5{font-family: 'Ms Madi', cursive;
+   
+    font-size: 50pt;
+}
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 27pt;}
+
+h6{ font-family: 'Roboto', sans-serif;
+}
